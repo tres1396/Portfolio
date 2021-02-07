@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("shadow.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* NAVBAR */
+.top-nav {
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* left of navbar */
+#nav-logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 33%;
+    height: 80%;
+}
+
+.top-image {
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+    justify-content: flex-start;
+}
+
+.header-name {
+    font-size: 35px;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    width: 200px;
+}
+
+/* right of navbar */
+#nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    list-style: none;
+    margin-right: 1em;
+}
+
+.nav-link {
+    margin: 5px;
+    padding: 15px;
+    color: rgb(32, 32, 32);
+    /* background-color: rgb(36, 36, 37); */
+    border-radius: 5px;
+}
+
+
+#about-me-container {
+    display: flex;
+    margin: 5% 0 0 0;
+}
+
+#about-me-title{
+    justify-content: start;
+    margin: 10px;
+    padding: 5px;
+    padding-right: 10px;
+    width: 60px;
+    font-weight: bold;
+    border-right: 2px solid black;
+    font-family: 'Karla', sans-serif; 
+}
+
+#about-me-text {
+    flex-direction: row;
+    font-family: 'Karla', sans-serif; 
+    font-weight: bold;
+}
+
+#main-work-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+#main-work-title {
+    justify-content: start;
+    margin: 10px;
+    padding: 5px;
+    padding-right: 10px;
+    width: 60px;
+    font-weight: bold;
+    border-right: 2px solid black;
+    font-family: 'Karla', sans-serif; 
+}
+
+#horiseon-image {
+    flex-direction: row;
+    border-radius: 8px;
+    padding: 5px;
+    width: 80%;
+    justify-content: center;
+}
+
+#horiseon-img {
+    width: 40%;
+    margin-left: 0px;
+}
+
+#horiseon-title {
+    justify-content: start;
+    margin-left: 50px;
+    font-family: 'Karla', sans-serif; 
+    font-weight: bold;
+}
+#fanpage-container {
+    display: flex;
+}
+
+#fanpage-work-title {
+    justify-content: start;
+    margin: 10px;
+    padding: 5px;
+    padding-right: 52px;
+    width: 60px;
+    font-weight: bold;
+    border-right: 2px solid black;
+    font-family: 'Karla', sans-serif; 
+}
+
+#fanpage-title {
+    justify-content: start;
+    margin-left: 50px;
+    font-family: 'Karla', sans-serif; 
+    font-weight: bold;
+}
+
+#fanpage-image {
+    justify-content: start;
+    margin-left: 80px;
+}
+
+#fanpage-img {
+    width: 30%
+}
+
+#contact-me-container {
+    display: flex;
+    margin-top: 45px;
+}
+
+#contact-me-title {
+    justify-content: start;
+}
+
+#contact-methods {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    list-style: none;
+    margin-left: 300px;
+    color:black;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+      flex-direction: column;
+    }
